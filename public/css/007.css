@@ -1,0 +1,554 @@
+body, html, div, img, a, p, ul, ol, dl, dd, dt, li, h1, h2, h3, h4, h5, em, i, form, input, span, button {
+  *zoom: 1;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  outline: none;
+  list-style: none
+}
+
+img {
+  outline: none;
+  border: none
+}
+
+label {
+  font-weight: normal
+}
+
+body, html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "Microsoft YaHei", "微软雅黑", Tahoma, Helvetica
+}
+
+a {
+  color: inherit;
+  text-decoration: none
+}
+
+.container .right .cal {}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0
+}
+
+input::placeholder, textarea::placeholder {
+  color: #ccc
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none !important;
+  cursor: pointer !important
+}
+
+hr {
+  margin-top: 110px;
+  margin-bottom: 16px;
+  border: 0;
+  border-top: 1px solid #eee
+}
+
+.r {
+  margin-top: 55px;
+  margin-bottom: 16px;
+}
+
+.h {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee
+}
+
+.hot {
+  background: url(../images/hot.png) no-repeat;
+  display: inline-block;
+  width: 30px;
+  position: absolute;
+  height: 20px;
+  background-size: contain;
+  top: 60px;
+  /*right: -10px;*/
+  display: none;
+}
+
+.progress {
+  width: 100px;
+  display: inline-block;
+  height: 10px;
+  margin-bottom: 0;
+  margin-left: 10px;
+  border: 1px solid #475b66;
+  border-radius: 4px;
+  line-height: 7px;
+}
+
+.progress-bar {
+  background-color: #475b66;
+  display: inline-block;
+  height: 8px;
+}
+
+.progress {
+  height: 8px
+}
+
+.investButton {
+  padding: 3px 0 0;
+  margin: 0 auto;
+  text-align: center
+}
+
+.investButton span {
+  color: #475b66;
+  background-color: #fff;
+  padding: 5px 55px;
+  border-radius: 3px;
+  border: 1px solid #475b66;
+  font-size: 14px;
+  display: inline-block
+}
+
+.starbg {
+  width: 95px;
+  height: 14px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  top: 5px
+}
+
+.starbg .star-gray {
+  background: url(../images/star-gray.png) no-repeat;
+  height: 18px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0
+}
+
+.starbg .star-active {
+  background: url(../images/star-active.png) no-repeat;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  top: 0
+}
+
+input[type="text"]:focus {
+  border-color: #66afe9 !important;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6)
+}
+
+.pagination .search_input {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  border-radius: 5px;
+  border: 1px solid #e1e2e3;
+  line-height: 2.228;
+  color: #475b66;
+  padding-left: 5px
+}
+
+.pagination .search_but {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  line-height: 1.428;
+  padding: 6px 10px;
+  vertical-align: bottom;
+  margin-left: 18px;
+  margin-top: 33px;
+}
+
+.pagination li.active a {
+  color: white;
+}
+
+.pagination li a {
+  margin: 0 9px;
+  color: #475b66;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 6px 12px;
+}
+
+.pagination li a:hover {
+  border-radius: 5px;
+  color: white;
+  background: #475b66;
+}
+
+.pagination li>span {
+  color: #475b66;
+  border: none;
+  cursor: text
+}
+
+.pagination li>span:hover {
+  border-radius: 5px;
+  background: none
+}
+
+.pagination li.active a {
+  background-color: #475b66;
+  border-radius: 5px
+}
+
+.pagination li.active a:hover {
+  background-color: #475b66;
+  cursor: text !important
+}
+
+.pagination li.paginfo {
+  line-height: 26px;
+  color: #999
+}
+
+.tooltip {
+  display: inline-table !important
+}
+
+.tooltip .tooltip-inner {
+  text-align: left
+}
+
+.content {
+  background-color: #f3f3f3;
+  padding-top: 30px;
+  padding-bottom: 30px
+}
+
+.content .container {
+  background-color: #fff;
+  padding: 20px 30px;
+  margin: 0 auto;
+  text-align: center
+}
+
+.content .container:first-child {
+  margin-bottom: 30px
+}
+
+.content .container .left {
+  float: left
+}
+
+.content .container .left input {
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  line-height: 30px;
+  height: 30px;
+  padding-left: 10px;
+  background-color: #f7f7f7;
+  width: 300px
+}
+
+.content .container .left span {
+  position: relative;
+  left: -30px;
+  vertical-align: middle
+}
+
+.content .container .right {
+  float: right;
+  line-height: 32px
+}
+
+.content .container .right span:first-child {
+  padding-right: 15px
+}
+
+.content .container .right span.pr0 {
+  padding-right: 0
+}
+
+.content .container .right span:before {
+  padding-right: 8px;
+  vertical-align: middle
+}
+
+.content .container .right span i {
+  padding-right: 8px;
+  vertical-align: middle;
+  color: #fac542
+}
+
+.content .container .condition {
+  position: relative
+}
+
+.content .container .condition dl {
+  text-align: left;
+  padding-bottom: 10px
+}
+
+.content .container .condition dl:last-child {
+  padding-bottom: 0
+}
+
+.content .container .condition dl dt {
+  font-weight: normal;
+  display: inline-block;
+  margin-left: 20px;
+  cursor: pointer;
+  padding: 3px 7px
+}
+
+.content .container .condition dl dt:hover {
+  background-color: #dd3137;
+  color: #fff;
+  border-radius: 3px;
+  padding: 3px 7px
+}
+
+.content .container .condition dl dd {
+  display: inline-block;
+  margin-left: 25px;
+  cursor: pointer;
+  padding: 3px 7px
+}
+
+.content .container .condition dl dd:hover {
+  background-color: #dd3137;
+  color: #fff;
+  border-radius: 3px;
+  padding: 3px 7px
+}
+
+.content .container .condition dl .on {
+  background-color: #dd3137;
+  color: #fff;
+  border-radius: 3px;
+  padding: 3px 7px
+}
+
+.content .container .condition dl .off {
+  color: #b3b3b3;
+  cursor: default;
+  background: none
+}
+
+.content .container .condition img {
+  position: absolute;
+  right: 0;
+  bottom: -7px
+}
+
+.content .container .order dl dt:hover {
+  color: #dd3137;
+  background: none
+}
+
+.content .container .order dl dd:hover {
+  color: #dd3137;
+  background: none
+}
+
+.content .container .order dl dd:hover i.iconfont {
+  color: #dd3137
+}
+
+.content .container .order dl dd i.iconfont {
+  display: inline-block;
+  transform: scale(.8);
+  color: #d7d7d8;
+  font-size: 12px
+}
+
+.content .container .order dl dd i.up {
+  transform: scale(.8) rotate(180deg)
+}
+
+.content .container .order dl .on {
+  color: #dd3137;
+  background: none
+}
+
+.content .container .investItem {
+  position: relative
+}
+
+.content .container .investItem [class^='status'] {
+  top: 16px;
+  right: 131px
+}
+
+.content .container .investItem [class*='sprite-newVip'] {
+  top: -21px;
+  left: -30px
+}
+
+.content .container .investItem .vipTag {
+  left: -27px;
+  top: -14px
+}
+
+.content .container .investItem h4 {
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 20px
+}
+
+.content .container .investItem h4 .labelTag {
+  font-size: 12px;
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 50% 50%;
+  line-height: 1;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 4px;
+  vertical-align: bottom
+}
+
+.content .container .investItem .first {
+  float: left;
+  width: 16%
+}
+
+.content .container .investItem .first .rate {
+  color: #dd3137;
+  font-size: 36px;
+  letter-spacing: -1px;
+  line-height: 54px
+}
+
+.content .container .investItem .first sub {
+  bottom: 0;
+  color: #dd3137;
+  font-size: 15px
+}
+
+.content .container .investItem .first sub span {
+  color: #475b66
+}
+
+.content .container .investItem .first p {
+  color: #8e9ca9;
+  padding-top: 3px
+}
+
+.content .container .investItem .col-lg-1 {
+  width: 1%
+}
+
+.content .container .investItem .secondUp {
+  float: left;
+  text-align: left;
+  width: 21%
+}
+
+.content .container .investItem .secondUp p {
+  color: #8e9ca9
+}
+
+.content .container .investItem .secondUp p:first-child {
+  padding-top: 15px;
+  padding-bottom: 11px
+}
+
+.content .container .investItem .secondUp p span {
+  color: #475b66
+}
+
+.content .container .investItem .secondUp p span b {
+  font-size: 22px;
+  font-weight: normal;
+  position: relative;
+  top: 1px
+}
+
+.content .container .investItem .second {
+  float: left;
+  text-align: left;
+  width: 21%;
+  color: #8e9ca9
+}
+
+.content .container .investItem .second p:first-child {
+  padding-top: 23px;
+  padding-bottom: 14px
+}
+
+.content .container .investItem .second p span {
+  color: #475b66
+}
+
+.content .container .investItem .third {
+  float: right;
+  width: 18%
+}
+
+.status1 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border: 2px solid #dd3137;
+  border-radius: 50%;
+  top: 130px;
+  right: 16px;
+  color: #dd3137;
+  transform: rotate(-32deg);
+  font-weight: bold;
+  letter-spacing: -1px;
+  z-index: 2;
+}
+
+.status1 span i {
+  font-size: 82px;
+}
+
+.starbg {
+  top: 1px !important;
+  left: -4px !important
+}
+
+.investButton span {
+  color: #dd3137;
+  background-color: #fff;
+  padding: 5px 55px;
+  border-radius: 3px;
+  border: 1px solid #dd3137;
+  font-size: 14px;
+  margin-top: 23px
+}
+
+.investButton .cant5, .investButton .cant7, .investButton .cant8, .investButton .cant1 {
+  color: #475b66;
+  background-color: #fff;
+  padding: 5px 55px;
+  border-radius: 3px;
+  border: 1px solid #475b66;
+  font-size: 14px
+}
+
+.clearfix::before, .clearfix::after {
+  content: "";
+  clear: both;
+}
+
+.page .pagination {
+  width: 635px;
+  height: 100px;
+  line-height: 100px;
+  margin: 50px auto;
+}
+
+.page .pagination ul li:first-child {
+  color: white;
+}
+
+.page .pagination li {
+  float: left;
+}
+
+.page .pagination .paginfo {
+  line-height: 100px;
+}

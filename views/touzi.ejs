@@ -1,0 +1,489 @@
+<%- include("htmlhead.ejs")%>
+  <%- include("header.ejs")%>
+
+    <div class="content">
+      <div class="container">
+        <div class="left">
+          <input type="text" class="loanName" id="loanName" placeholder="输入关键字查询">
+          <span class="icon-search"><i class="iconfont">&#xe615;</i></span>
+        </div>
+        <div class="right">
+          <a class="cal"><span><i class="iconfont">&#xe679;</i>收益计算器</span></a>
+          <a href="#"><span><i class="iconfont">&#xe601;</i>预约投标</span></a>
+        </div>
+        <div class="clearfix"></div>
+        <hr class="r">
+        <div class="condition">
+          <a href="#"><img src="../images/aboutUs.jpg"></a>
+          <dl id="term">产品期限:
+            <dt class="on" data-termstart="0" data-termend="9999">全部</dt>
+            <dd data-termstart="0" data-termend="4" id="t1">1-3个月</dd>
+            <dd data-termstart="4" data-termend="10" id="t2">4-9个月</dd>
+            <dd data-termstart="10" data-termend="99999" id="t3">10个月以上</dd>
+          </dl>
+          <dl>产品收益:
+            <dt class="on" data-ratestart="0" data-rateend="9999">全部</dt>
+            <dd data-ratestart="0" data-rateend="9">9%以下</dd>
+            <dd data-ratestart="9" data-rateend="10">9-10%</dd>
+            <dd data-ratestart="10" data-rateend="11">10-11%</dd>
+            <dd data-ratestart="11" data-rateend="12">11-12%</dd>
+            <dd data-ratestart="12" data-rateend="9999">12%以上</dd>
+          </dl>
+          <dl>产品类型:
+            <dt class="on" data-applytype="9999">全部</dt>
+            <dd data-applytype="1,3">微投资<span class="hot" style="display: inline;"></span></dd>
+
+            <dd data-applytype="17"><a class="yyyLink" href="#" target="_blank">月月盈</a></dd>
+            <dd data-applytype="15">海航通宝</dd>
+            <dd data-applytype="12">微金宝</dd>
+            <dd data-applytype="6" id="resale">微转让</dd>
+            <dd data-applytype="18">稳赢保<span class="hot" style="display: inline;"></span></dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="condition order">
+          <dl style="padding-bottom: 0;">排序方式:
+            <dt data-order="uplinetime" class="on">默认排序</dt>
+            <dd data-order="interestRate">年化利率<i class="iconfont">&#xe616;</i></dd>
+            <dd data-order="term">投资期限<i class="iconfont">&#xe616;</i></dd>
+            <dd data-order="applyType">产品类型<i class="iconfont">&#xe616;</i></dd>
+            <dd data-order="starLevel">产品星级<i class="iconfont">&#xe616;</i></dd>
+          </dl>
+        </div>
+        <hr class="h">
+        <div class="result">
+          <div class="investItem">
+            <h4><a href="#">易投宝L-88期</a>
+            <span class="labelTag" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="机构融资人">机
+            </span>
+          </h4>
+            <div class="first"><span class="rate">11.3</span><sub>%+0.7%</sub>
+              <p>测算年化收益率</p>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="secondUp">
+              <p>借款期限：<span><b>560</b>天</span></p>
+              <p>还款方式：<span>利随本清</span></p>
+            </div>
+            <div class="second">
+              <p>筹集金额：<span>60万元</span></p>
+              <div>产品星级：
+                <div class="starbg" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="五星级">
+                  <div class="star-gray"></div>
+                  <div class="star-active" style="width:83.33333333333333%" tar="5"></div>
+                </div>
+              </div>
+            </div>
+            <div class="second">
+              <p>投资进度：
+                <span>0%</span>
+                <span class="progress">
+                <span class="progress-bar" style="width:0%"></span>
+                </span>
+              </p>
+              <p>可投金额：
+                <span>600000元</span>
+              </p>
+            </div>
+            <div class="third investButton">
+              <a href="#">
+                    <span class="cant4">立即加入</span>
+                  </a>
+            </div>
+            <div class="status4"></div>
+            <div class="clearfix"></div>
+          </div>
+          <hr>
+          <div class="investItem">
+            <h4><a href="#">易投宝F-167期</a>
+                  <span class="labelTag" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="机构融资人">机</span>
+                </h4>
+            <div class="first"><span class="rate">9.7</span><sub>%</sub>
+              <p>测算年化收益率</p>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="secondUp">
+              <p>借款期限：
+                <span><b>217</b>天</span>
+              </p>
+              <p>还款方式：
+                <span>利随本清</span>
+              </p>
+            </div>
+            <div class="second">
+              <p>筹集金额：
+                <span>70万元</span>
+              </p>
+              <div>产品星级：
+                <div class="starbg" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="五星级">
+                  <div class="star-gray"></div>
+                  <div class="star-active" style="width:83.33333333333333%" tar="5"></div>
+                </div>
+              </div>
+            </div>
+            <div class="second">
+              <p>投资进度：
+                <span>0%</span>
+                <span class="progress">
+                      <span class="progress-bar" style="width:0%;"></span>
+                </span>
+              </p>
+              <p>可投金额：
+                <span>699900元</span>
+              </p>
+            </div>
+            <div class="third investButton">
+              <a href="#">
+                    <span class="cant4">立即加入</span>
+                  </a>
+            </div>
+            <div class="status4"></div>
+            <div class="clearfix"></div>
+          </div>
+          <hr>
+          <div class="investItem">
+            <h4><a href="#">易投宝C-133期</a>
+                  <span class="labelTag" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="机构融资人">机</span>
+                </h4>
+            <div class="first"><span class="rate">7</span>
+              <sub>%</sub>
+              <p>测算年化收益率</p>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="secondUp">
+              <p>借款期限：
+                <span><b>88</b>天</span>
+              </p>
+              <p>还款方式：
+                <span>利随本清</span>
+              </p>
+            </div>
+            <div class="second">
+              <p>筹集金额：
+                <span>50万元</span>
+              </p>
+              <div>产品星级：
+                <div class="starbg" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="五星级">
+                  <div class="star-gray"></div>
+                  <div class="star-active" style="width:83.33333333333333%" tar="5"></div>
+                </div>
+              </div>
+            </div>
+            <div class="second">
+              <p>投资进度：
+                <span>16%</span>
+                <span class="progress">
+                      <span class="progress-bar" style="width:16%;"></span>
+                </span>
+              </p>
+              <p>可投金额：
+                <span>415800元</span>
+              </p>
+            </div>
+            <div class="third investButton">
+              <a href="#">
+                    <span class="cant4">立即加入</span>
+                  </a>
+            </div>
+            <div class="status4"></div>
+            <div class="clearfix"></div>
+
+          </div>
+          <hr>
+          <div class="investItem">
+            <h4><a href="#">微周转-消费金融一千二百八十期 </a>
+              <span class="labelTag" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="四川省">川</span>
+              <span class="labelTag" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="实地认证">实</span>
+          </h4>
+            <div class="first"><span class="rate">11.1</span><sub>%</sub>
+              <p>测算年化收益率</p>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="secondUp">
+              <p>借款期限：<span><b>24</b>个月</span></p>
+              <p>还款方式：<span>等额本息</span></p>
+            </div>
+            <div class="second">
+              <p>筹集金额：
+                <span>5.46万元</span>
+              </p>
+              <div>产品星级：
+                <div class="starbg" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="五星级">
+                  <div class="star-gray"></div>
+                  <div class="star-active" style="width:83.33333333333333%" tar="5">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="second">
+              <p>投资进度：<span>48%</span><span class="progress"><span class="progress-bar" style="width:48%;"></span></span>
+              </p>
+              <p>可投金额：<span>28300元</span></p>
+            </div>
+            <div class="third investButton">
+              <a href="#">
+              <span class="cant4">立即加入</span>
+            </a>
+            </div>
+            <div class="status4"></div>
+            <div class="clearfix"></div>
+          </div>
+          <hr>
+          <div class="investItem">
+            <h4>
+            <a href="#">易投宝X-13期</a>
+            <span class="labelTag" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="机构融资人">机</span>
+          </h4>
+            <div class="first"><span class="rate">9.7</span><sub>%</sub>
+              <p>测算年化收益率</p>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="secondUp">
+              <p>借款期限：<span><b>190</b>天</span></p>
+              <p>还款方式：<span>利随本清</span></p>
+            </div>
+            <div class="second">
+              <p>筹集金额：<span>50万元</span></p>
+              <div>产品星级：
+                <div class="starbg" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="五星级">
+                  <div class="star-gray"></div>
+                  <div class="star-active" style="width:83.33333333333333%" tar="5"></div>
+                </div>
+              </div>
+            </div>
+            <div class="second">
+              <p>投资进度：<span>56%</span>
+                <span class="progress">
+              <span class="progress-bar" style="width:56%;"></span>
+                </span>
+              </p>
+              <p>可投金额：<span>219200元</span></p>
+            </div>
+            <div class="third investButton">
+              <a href="#">
+              <span class="cant4">立即加入</span>
+            </a>
+            </div>
+            <div class="status4"></div>
+            <div class="clearfix"></div>
+          </div>
+          <hr>
+          <div class="investItem">
+            <h4>
+    <a href="#">微收益-医美贷七百六十一期</a>
+    <span class="labelTag" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="北京市">京</span>
+    <span class="labelTag" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="实地认证">实</span>
+   </h4>
+            <div class="first"><span class="rate">10.8</span><sub>%+0.4%</sub>
+              <p>测算年化收益率</p>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="secondUp">
+              <p>借款期限：<span><b>347</b>天</span></p>
+              <p>还款方式：<span>月付息到期还本</span></p>
+            </div>
+            <div class="second">
+              <p>筹集金额：<span>48.71万元</span></p>
+              <div>产品星级：
+                <div class="starbg" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="五星半">
+                  <div class="star-gray"></div>
+                  <div class="star-active" style="width:91.66666666666667%" tar="5.5"></div>
+                </div>
+              </div>
+            </div>
+            <div class="second">
+              <p>投资进度：<span>49%</span><span class="progress"><span class="progress-bar" style="width:49%;"></span></span>
+              </p>
+              <p>可投金额：<span>243700元</span></p>
+            </div>
+            <div class="third investButton"><a href="#">
+    <span class="cant4">立即加入</span></a>
+            </div>
+            <div class="status4"></div>
+            <div class="clearfix"></div>
+          </div>
+          <hr>
+          <div class="investItem">
+            <h4><a href="#">易投宝L-82期</a>
+            <span class="labelTag" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="机构融资人">机</span>
+          </h4>
+            <div class="first"><span class="rate">10.8</span><sub>%+0.5%</sub>
+              <p>测算年化收益率</p>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="secondUp">
+              <p>借款期限：<span><b>347</b>天</span></p>
+              <p>还款方式：<span>利随本清</span></p>
+            </div>
+            <div class="second">
+              <p>筹集金额：<span>80万元</span></p>
+              <div>产品星级：
+                <div class="starbg" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="五星级">
+                  <div class="star-gray"></div>
+                  <div class="star-active" style="width:83.33333333333333%" tar="5"></div>
+                </div>
+              </div>
+            </div>
+            <div class="second">
+              <p>投资进度：<span>28%</span><span class="progress"><span class="progress-bar" style="width:28%;"></span></span>
+              </p>
+              <p>可投金额：<span>571100元</span></p>
+            </div>
+            <div class="third investButton"><a href="#"><span class="cant4">立即加入</span></a></div>
+            <div class="status4"></div>
+            <div class="clearfix"></div>
+          </div>
+          <hr>
+          <div class="investItem">
+            <h4><a href="#">易投宝X-2期</a>
+    <span class="labelTag" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="机构融资人">机</span></h4>
+            <div class="first"><span class="rate">8.5</span><sub>%</sub>
+              <p>测算年化收益率</p>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="secondUp">
+              <p>借款期限：<span><b>125</b>天</span></p>
+              <p>还款方式：<span>利随本清</span></p>
+            </div>
+            <div class="second">
+              <p>筹集金额：<span>50万元</span></p>
+              <div>产品星级：
+                <div class="starbg" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="五星级">
+                  <div class="star-gray"></div>
+                  <div class="star-active" style="width:83.33333333333333%" tar="5"></div>
+                </div>
+              </div>
+            </div>
+            <div class="second">
+              <p>投资进度：<span>48%</span><span class="progress"><span class="progress-bar" style="width:48%;"></span></span>
+              </p>
+              <p>可投金额：<span>256000元</span></p>
+            </div>
+            <div class="third investButton"><a href="#"><span class="cant4">立即加入</span></a></div>
+            <div class="status4"></div>
+            <div class="clearfix"></div>
+          </div>
+          <hr>
+          <div class="investItem">
+            <h4><a href="#">易企贷-国康1期</a>
+           <span class="labelTag" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="机构融资人">机</span>
+          </h4>
+            <div class="first">
+              <span class="rate">11</span>
+              <sub>%</sub>
+              <p>测算年化收益率</p>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="secondUp">
+              <p>借款期限：<span><b>357</b>天</span></p>
+              <p>还款方式：<span>月付息到期还本</span></p>
+            </div>
+            <div class="second">
+              <p>筹集金额：<span>100万元</span></p>
+              <div>产品星级：
+                <div class="starbg" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="四星级">
+                  <div class="star-gray"></div>
+                  <div class="star-active" style="width:66.66666666666667%" tar="4"></div>
+                </div>
+              </div>
+            </div>
+            <div class="second">
+              <p>投资进度：<span>90%</span>
+                <span class="progress"><span class="progress-bar" style="width:90%;"></span></span>
+              </p>
+              <p>可投金额：<span>98100元</span></p>
+            </div>
+            <div class="third investButton">
+              <a href="#"><span class="cant4">立即加入</span></a>
+            </div>
+            <div class="status4"></div>
+            <div class="clearfix"></div>
+          </div>
+          <hr>
+          <div class="investItem">
+            <h4>
+            <a href="#">微金宝3月期</a>
+            <span class="labelTag" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="微金宝">宝</span>
+          </h4>
+            <div class="first"><span class="rate">7</span><sub>%</sub>
+              <p>测算年化收益率</p>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="secondUp">
+              <p>借款期限：<span><b>3</b>个月</span></p>
+              <p>还款方式：<span>月付息到期还本</span></p>
+            </div>
+            <div class="second">
+              <p>可投金额：<span>0元</span></p>
+              <div>产品星级：
+                <div class="starbg" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="五星级">
+                  <div class="star-gray"></div>
+                  <div class="star-active" style="width:83.33333333333333%" tar="5"></div>
+                </div>
+              </div>
+            </div>
+            <div class="second">
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+            </div>
+            <div class="third investButton"><a href="#"><span class="cant1">立即加入</span></a></div>
+            <div class="status1"><span><i class="iconfont">&#xe60c;</i></span></div>
+            <div class="clearfix"></div>
+          </div>
+          <hr>
+          <div class="investItem">
+            <h4>
+        <a href="#">微金宝1月期</a>
+        <span class="labelTag" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="微金宝">宝</span>
+      </h4>
+            <div class="first"><span class="rate">6.5</span><sub>%</sub>
+              <p>测算年化收益率</p>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="secondUp">
+              <p>借款期限：<span><b>1</b>个月</span></p>
+              <p>还款方式：<span>月付息到期还本</span></p>
+            </div>
+            <div class="second">
+              <p>可投金额：<span>0元</span></p>
+              <div>产品星级：
+                <div class="starbg" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="五星级">
+                  <div class="star-gray"></div>
+                  <div class="star-active" style="width:83.33333333333333%" tar="5"></div>
+                </div>
+              </div>
+            </div>
+            <div class="second">
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+            </div>
+            <div class="third investButton"><a href="#"><span class="cant1">立即加入</span></a></div>
+            <div class="status1"><span><i class="iconfont">&#xe60c;</i></span></div>
+            <div class="clearfix"></div>
+          </div>
+          <hr>
+        </div>
+        <div class="clearfix"></div>
+        <div class="page">
+          <div style="clear:both;"></div>
+          <ul class="pagination">
+            <li p="0" class="pagprev"><a href="#"><i class="iconfont">&#xe64b;</i></a></li>
+            <li p="1" class="active"><a href="#">1</a></li>
+            <li p="2" class=""><a href="#">2</a></li>
+            <li p="3" class=""><a href="#">3</a></li>
+            <li p="4" class=""><a href="#">4</a></li>
+            <li p="5" class=""><a href="#">5</a></li>
+            <li><span>...</span></li>
+            <li p="1147" class=""><a href="#">1147</a></li>
+            <li p="2" class="pagnext"><a href="#"><i class="iconfont">&#xe603;</i></a></li>
+            <li class="paginfo">跳转到：<input class="search_input" type="text" size="4"> </li>
+            <li><a class="search_but"><i class="iconfont">&#xe653;</i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <%- include("footer.ejs")%>
+      <%- include("htmlfoot.ejs")%>

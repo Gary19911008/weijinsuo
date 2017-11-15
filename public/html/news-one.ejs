@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>微金所-成就亿万人的信用价值</title>
+    <link href="../bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+ <script src="../js/jquery.min.js" charset="utf-8"></script>
+    <style media="screen">
+      *{
+        margin:0;
+        padding:0;
+      }
+       a{
+        text-decoration:none;
+         color:black;
+      }
+      a:hover{
+        text-decoration:none;
+      }
+      li{
+        list-style:none;
+        text-decoration:none;
+      }
+      .w{
+        width:1200px;
+        margin:0 auto;
+      }
+      .nav-top{
+        height:35px;
+        width:100%;
+        box-sizing:border-box;
+        border-top:1px solid black;
+        border-bottom:1px solid black;
+        text-align:center;
+        line-height:35px;
+      }
+      .nav-top p{
+        float:left;
+        font-size:12px;
+      }
+      .nav-top-left{
+        float:left;
+        font-size:12px;
+      }
+      .nav-top-left li{
+        float:left;
+        border-left:1px solid black;
+        margin:auto 6px;
+      }
+      .nav-top-right{
+        float:right;
+        font-size:12px;
+      }
+      .nav-top-right li{
+        float:right;
+        margin:auto 6px;
+      }
+      .nav-middle{
+        height:86px;
+      }
+      .nav-middle-left{
+        float:left;
+      }
+      .nav-middle-right{
+      float:right;
+      }
+      .content{
+        margin:auto 15px;
+
+      }
+      .content-left{
+        width:215px;
+        height:100%;
+        float:left;
+        margin-left:-14px;
+
+
+      }
+
+      .content-left li{
+        width:215px;
+        height:50px;
+        text-align:center;
+        line-height:50px;
+        font-size:15px;
+        box-sizing:border-box;
+        border:solid gray 1px;
+        margin-top:-1px;
+      }
+      .content-left ul li:hover{
+        background:#fff;
+        border-left:3px #dd2c37 solid;
+        cursor:pointer;
+
+      }
+      .content-left ul li a {
+        text-decoration:none;
+      }
+      .content-left ul li a:hover {
+        color:black;
+      }
+      .content-right{
+        float:right;
+        width:983px;
+        border:1px solid gray;
+        margin-right:-14px;
+        position:relative;
+      }
+       .newsContent:nth-child(5){
+        width:983px;
+        height:10700px;
+      }
+       .newsContent:nth-child(5) .zuo{
+        position:relative;
+        left:40px;
+        top:40px;
+        width:40px;
+        font-size:18px;
+      }
+       .newsContent:nth-child(5) .year1{
+        position:absolute;
+        left:160px;
+        top:40px;
+        width:40px;
+        font-size:18px;
+      }
+       .newsContent:nth-child(5) .year2{
+        position:absolute;
+        left:160px;
+        top:1170px;
+        width:40px;
+        font-size:18px;
+      }
+       .newsContent:nth-child(5) .year3{
+        position:absolute;
+        left:160px;
+        top:1930px;
+        width:40px;
+        font-size:18px;
+      }
+       .newsContent:nth-child(5) .year4{
+        position:absolute;
+        left:160px;
+        top:4907px;
+        width:40px;
+        font-size:18px;
+      }
+      .newsContent:nth-child(5) .shutiao1{
+        position:absolute;
+        left:105px;
+        top:35px;
+        height:11900px;
+        border-left:6px solid #e5e9ed;
+        /*background:gray;*/
+        border-radius:3px 3px 3px 3px;
+      }
+      .shutiao1 .topcolor{
+
+        position:relative;
+        top:-1px;
+        left:-6px;
+        height:60px;
+        border-left:6px solid orange;
+        border-radius:3px 3px;
+      }
+      .newsContent:nth-child(5) .shutiao2{
+        position:absolute;
+        left:350px;
+        top:35px;
+        height:11900px;
+        border-left:4px solid #e5e9ed;
+        /*background:gray;*/
+        border-radius:2px 2px 2px 2px;
+      }
+      .newsContent:nth-child(5) .thedate{
+        width:700px;
+        float:right;
+        margin-bottom:40px;
+      }
+      .thedate p{
+        width:68px;
+        height:32px;
+        font-size:15px;
+        color:white;
+        background:#7cd1fa;
+        position:absolute;
+        left:260px;
+        line-height:32px;
+        text-align:center;
+        border-radius:3px;
+      }
+
+
+      .updateContent{
+        float:right;
+        margin: 30px 180px 0 auto;
+        width:400px;
+        background:#e5e9ed;
+        text-align:left;
+        padding:2px;
+        border-radius:2px;
+      }
+      .updateContent li{
+        margin:2px 2px;
+        height:28px;
+        line-height:28px;
+      }
+      .thedate .tu{
+        width:18px;
+        height:18px;
+        background-image:url("../images/history_rec.jpg");
+        position:absolute;
+        left:343px;
+      }
+
+    .thedate .triangle{
+      height:0px;
+      width:0px;
+      transform:rotateZ(45deg);
+       border-left:30px solid transparent;
+       border-right:30px solid #e5e9ed;
+      border-top:20px solid transparent;
+      border-bottom:20px solid transparent;
+      position:absolute;
+      left:359px;
+
+    }
+    .newsContent:nth-child(7) .gonggao{
+      margin:20px 20px;
+      text-align:left;
+    }
+    .gonggao p{
+     text-indent:2em;
+     font-size: 15px;
+
+    }
+    .newsContent:nth-child(2) {
+      width:932px;
+      height:1750px;
+    }
+    .newsContent:nth-child(2) .webnews{
+      margin:20px 20px;
+      line-height:26px;
+      text-align:left;
+    }
+    .webnews p{
+      text-align:1em;
+      font-size:15px;
+    }
+    .newsContent:nth-child(4) {
+      width:932px;
+      height:1750px;
+    }
+    .newsContent:nth-child(4) .dongtai{
+      margin:20px 20px;
+      line-height:28px;
+      text-align:left;
+    }
+    .webnews p{
+      text-align:1em;
+      font-size:15px;
+    }
+    .newsContent:nth-child(6){
+      width:932px;
+      height:740px;
+    }
+    .newsContent:nth-child(6) .reportTop{
+     margin:20px;
+
+    }
+    .reportTop h4{
+     position:absolute;
+     top:20px;
+    }
+   .reportTop p{
+     position:absolute;
+     top:78px;
+     text-indent:2em;
+     margin:10px;
+     font-size: 14px;
+
+    }
+    .newsContent:nth-child(6) .xindaibaogao{
+     margin:20px;
+     width:932px;
+     position:absolute;
+     top:220px;
+    }
+    .xindaiContent{
+      height:50px;
+      border-bottom: 1px solid black;
+      margin:8px;
+    }
+    .xindaiContent img{
+      position:absolute;
+      left:10px;
+    }
+    .xindaiContent li{
+      float:left;
+      margin-left: 55px;
+      height:40px;
+      line-height:40px;
+      font-size:14px;
+    }
+    .xindai li  a:hover{
+      cursor: pointer;
+    }
+    </style>
+  </head>
+
+
+
+  </head>
+  <body>
+    <div class="nav-top">
+     <div class="w">
+       <img src="" alt="">
+       <p>客服电话：4006-89-4006 / 010-53563799/（9:00~21:00）</p>
+       <div class="nav-top-left">
+      <li><a href="#">在线客服</a></li>
+      <li><a href="#">移动客户端</a></li>
+      <li><a href="#">微信公众二维码</a></li>
+      <li><a href="#">财富登录</a></li>
+    </div>
+       <div class="nav-top-right">
+      <li><a href="#">登录</a></li>
+      <li><a href="#">注册</a></li>
+      <li><a href="#">帮助中心</a></li>
+      <li><a href="#">进入存管专区</a></li>
+       </div>
+     </div>
+    </div>
+
+    <div class="nav-middle">
+    <div class="w">
+        <div class="nav-middle-left">
+
+        </div>
+        <div class="nav-middle-right">
+
+        </div>
+      </div>
+    </div>
+
+
+
+  <div class="w">
+    <div class="content">
+         <div class="content-left">
+        <!--  <nav class="navbar navbar-default navbar-fixed-left">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-
+              toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-
+                expanded="false"></button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav"> -->
+              <ul id="content">
+
+              <li class="active" id="qbxw"><a href="#">全部新闻</a></li>
+              <li id="mtbd"><a href="#">媒体报道</a></li>
+              <li id="wjstt"><a href="#">微金所头条</a></li>
+              <li id="hyzx"><a href="#">行业资讯</a></li>
+              <li id="gxls"><a href="#">更新历史</a></li>
+              <li id="llbg"><a href="#">利率报告</a></li>
+              <li id="ztlb"><a href="#">专题列表</a></li>
+
+              </ul>
+
+
+        </div>
+        <div class="content-right">
+         <div class="newsContent" id="newsDetail" style="display:none">
+           dsfsadf
+         </div>
+         <div class="newsContent" id="newsMedia" style="display:none">
+           <div class="newsContentpage1">
+             <div class="webnews">
+
+             <h4><a href="#">【新浪网】互联网金融平台微金所实缴注册资本增至1亿元</a></h4>
+             <li>2017-09-19</li>
+             <p>【新浪网】互联网金融平台微金所实缴注册资本增至1亿元2017年7月24日，互联网金融平台微金
+               所在其官方微信公众号发布了“微金所注册资本增至1亿元 夯实资本 更上一层”的公告，正式
+               宣布，微金所经工商部门</p>
+             <a href="#">Read more -></a>
+             </div>
+            <div class="webnews">
+
+             <h4><a href="#">【中华网】微金所荣膺2017互联网金融典范企业奖</a></h4>
+             <li>2017-08-23</li>
+             <p>【中华网】微金所荣膺2017互联网金融典范企业奖 2017年7月20日，第六届中国财经峰会暨“光荣
+               与梦想”致敬盛典在京举办。微金所受邀参与此次盛会，与行业领袖们共话互联网金融领域的发展
+               机遇与挑战，并</p>
+             <a href="#">Read more -></a>
+            </div>
+            <div class="webnews">
+
+             <h4><a href="#">【网易新闻】微金所恭贺粤东西北首家民营银行-客商银行盛大开业！</a></h4>
+             <li>2017-07-24</li>
+             <p>【网易新闻】微金所恭贺粤东西北首家民营银行-客商银行盛大开业！ 喜讯： 梅州客商银行股份有
+               限公司经中国银行业监督管理委员会广东监管局批准，于2017年6月28日起正式对外营业。微金所
+               股东宝新能</p>
+             <a href="#">Read more -></a>
+            </div>
+             <div class="webnews">
+
+             <h4><a href="#">【环球网】微金所董事长范忠民荣获2017第八届中
+               美企业峰会“杰出贡献奖”</a></h4>
+             <li>2017-07-24</li>
+             <p>环球网】微金所董事长范忠民荣获2017第八届中美企业峰会“杰出贡献奖” 2017第八届中美企业峰会
+               于4月30日在洛杉矶著名的千禧店水晶大厅举行。美国联邦众议员赵美心(Judy Chu)，前美国加州共</p>
+             <a href="#">Read more -></a>
+             </div>
+             <div class="webnews">
+
+             <h4><a href="#">【凤凰网】网贷之家：盘点哪些平台做到存管、ICP、风投？微金所成为18家之一</a></h4>
+             <li>2017-05-11</li>
+             <p>凤凰网】网贷之家：盘点哪些平台做到存管、ICP、风投？微金所成为18家之一 2月23日，银监会正式发
+               布《网络借贷资金存管业务指引》，《指引》明确了网贷资金存管业务应遵循的基本规则和实施标准。透过《</p>
+             <a href="#">Read more -></a>
+             </div>
+             <div class="webnews">
+
+             <h4><a href="#">【证券之星】方正东亚·微金所信托计划2号成立</a></h4>
+             <li>2017-04-11</li>
+             <p>方正东亚·微金所信托计划2号成立》 2016年11月，方正东亚与微金所正式成立“金融产品投资信托计划”。2017
+               年3月，继“信托计划1号”之后，方正东亚与微金所再次合作，成立“金融产品投资信托计划</p>
+             <a href="#">Read more -></a>
+             </div>
+             <div class="webnews">
+
+             <h4><a href="#">【网易新闻】微金所 客商银行联手互动，助力小微金融！</a></h4>
+             <li>2017-03-20</li>
+             <p>《微金所 客商银行联手互动，助力小微金融！》 2016年7月，宝新能源（股票代码000690）入资微金所，成为
+               微金所的股东之一。转眼，半年多过去了，微金所和宝新能源之间又产生了怎样的密切合作呢？</p>
+             <a href="#">Read more -></a>
+             </div>
+             <div class="webnews">
+
+             <h4><a href="#">【新华网】微金所荣膺“2016互联网金融企业社会责任奖”</a></h4>
+             <li>2017-01-18</li>
+             <p>【新华网】微金所荣膺“2016互联网金融企业社会责任奖”       2017年1月10日-11日，中国公益慈善领域
+               最具影响力的年度盛事“第六届中国公益节暨向公益践行者致</p>
+             <a href="#">Read more -></a>
+             </div>
+             <div class="webnews">
+
+             <h4><a href="#">【证券之星】微金所胜诉“老赖”，网贷追偿案近日在京宣判</a></h4>
+             <li>2017-01-18</li>
+             <p>【证券之星】微金所胜诉“老赖”，网贷追偿案近日在京宣判 近日，微金所起诉借款人李斌及其担保方一案在京宣判，借款
+               人李斌未按合同约定如期偿还借款本金及最后一期利息，担保方亦未履行债权回购责任，微金所基于维</p>
+             <a href="#">Read more -></a>
+             </div>
+             <div class="webnews">
+
+             <h4><a href="#">【凤凰网】多层次资本市场显优势，微金所发力新三板股权质押</a></h4>
+             <li>2017-01-10</li>
+             <p>【凤凰网】多层次资本市场显优势，微金所发力新三板股权质押 2016年对新三板来说注定是不平凡的一年，从1月份类金融
+               企业挂牌新三板受限，到6月分层制度的正式落地，再到下半年国务院、证监会陆续推出的各类</p>
+             <a href="#">Read more -></a>
+             </div>
+           </div>
+           <div class="newsContentpage2">
+
+           </div>
+           <div class="newsContentpage3">
+
+           </div>
+           <div class="newsContentpage4">
+
+           </div>
+           <div class="newsContentpage5">
+
+           </div>
+           <div class="newsContentpage6">
+
+           </div>
+           <div class="newsContentpage7">
+
+           </div>
+         </div>
+         <div class="newsContent" id="wjsTop" style="display:none">
+           dsfsadf
+         </div>
+         <div class="newsContent" id="newsIndustry" style="display:none">
+          <div class="industrypage1">
+            <div class="dongtai">
+              <h4><a href="#">【微动态】《搜狐财经》《国际在线》等多家媒体报道：股权质押或成互联网金融资产端新走向</a></h4>
+              <li>2016-10-17</li>
+              <p>2016年互联网金融真正进入监管元年，最严监管的强势落地让互联网金融行业加速进入洗牌期。“13条禁令”更
+                缩小了平台的业务空间，使本不充裕的优质资产变的更加匮乏。在监管元年以及优质资产“资产荒”双重压力</p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#">【微动态】微金所获知名投资机构“深创投”注资，A轮融资完美收官！</a></h4>
+              <li>2016-10-17</li>
+              <p>2016年9月13日，微金所获国际知名投资机构---深圳市创新投资集团注资（简称：“深创投”）。至此，由
+                海航资本投资领投，宝新能源、深创投、北大E9基金跟投的A轮3.2亿元人民币融资完美收官。</p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#">【微动态】P2P能投吗？监管落地，安全性更高</a></h4>
+              <li>2016-10-17</li>
+              <p>2015年是P2P行业的井喷之年，P2P行业以异军突起之势迅速抢占了互联网金融行业的一块重要版图，似一班疾驰开
+                往融资春天的地铁。然而金融创新往往意味着对现有监管的规避，我们同样也看到P2P行业在发展道</p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#">【财经头条网】微金所与前海航交所携手推出安全优质的理财产品—海航金宝！</a></h4>
+              <li>2016-07-27</li>
+              <p>[ 财经头条网导读 ] 继2016年初，老牌互联网金融平台微金所携手海航物流推出供应链金融产品“海航通宝”之
+                后，微金所再次与海航集团旗下企业前海航交所进行合作。于2016年7月13日正式推出</p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#">【微动态】微金所董事长范忠民应邀出席“中国高成长企业CEO峰会”</a></h4>
+              <li>2015-12-04</li>
+              <p>   2015年12月2日，由清科集团主办的“第六届中国高成长企业CEO峰会暨中国最具投资价值企业50强评选活动”在北
+                京柏悦酒店隆重举行。此次大会以“变”为主题，共</p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#">【微动态】“微金融与民生大讲堂”全国巡讲之厦门站</a></h4>
+              <li>2015-12-04</li>
+              <p> 11月29日上午，由互联网金融公司微金所策划承办、人民日报《民生周刊》主办的“微金融与民生大讲堂”厦门巡
+                讲活动在厦门国际会展中心开讲。人民日报《民生周刊》副总</p>
+              <a href="#">Read more -></a>
+            </div>
+
+            <div class="dongtai">
+              <h4><a href="#">【微动态】王石，范忠民一行企业家哀牢山拜访褚时健</a></h4>
+              <li>2015-12-04</li>
+              <p> 11月17日微金所董事长范忠民、万科董事长王石等企业家一同前往哀牢山拜访褚时健先生。       17日晚上，一场以分</p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#">【微关注】微金所范忠民：《指导意见》的“三大鼓励，八项注意”</a></h4>
+              <li>2015-07-22</li>
+              <p>  7月18日，由央行牵头制定的《关于促进互联网金融健康发展的指导意见》正式发布，拉开了互联网金融监管的
+                序幕。从业者和相关媒体纷纷进行了解读和分析，微</p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#">【微关注】人大教授：未来每个人都是银行</a></h4>
+              <li>2014-10-29</li>
+              <p>“随着互联网金融的发展，金融服务将会越来越生活化。未来每个人都是一个银行，可以通过网贷将钱随时贷出去；或通过
+                余额宝等把钱存过去，而不用太依赖大的金融机构”，中国人民大学汉青经济与金融学院副院长汤珂</p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#">【微关注】政策动态：P2P监管划归草案已上报国务院</a></h4>
+              <li>2014-10-22</li>
+              <p>　10月20日，央行支付清算协会一名官员在公开场合透露，P2P归银监会管，第三方支付由央行管，这种默认的监管方式
+                将会通过成文的规定出台。“这个文件已经报到国务院了，在走程序。”在他看来，应该正确看待</p>
+              <a href="#">Read more -></a>
+            </div>
+          </div>
+          <!-- <div class="industrypage2">
+            <div class="dongtai">
+              <h4><a href="#"></a></h4>
+              <li></li>
+              <p></p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#"></a></h4>
+              <li></li>
+              <p></p>
+              <a href="#">Read more -></a>
+            </div>
+          </div>
+            <div class="industrypage3">
+            <div class="dongtai">
+              <h4><a href="#"></a></h4>
+              <li></li>
+              <p></p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#"></a></h4>
+              <li></li>
+              <p></p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#"></a></h4>
+              <li></li>
+              <p></p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#"></a></h4>
+              <li></li>
+              <p></p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#"></a></h4>
+              <li></li>
+              <p></p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#"></a></h4>
+              <li></li>
+              <p></p>
+              <a href="#">Read more -></a>
+            </div>
+          </div>
+          <div class="industrypage4">
+            <div class="dongtai">
+              <h4><a href="#"></a></h4>
+              <li></li>
+              <p></p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#"></a></h4>
+              <li></li>
+              <p></p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#"></a></h4>
+              <li></li>
+              <p></p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#"></a></h4>
+              <li></li>
+              <p></p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#"></a></h4>
+              <li></li>
+              <p></p>
+              <a href="#">Read more -></a>
+            </div>
+            <div class="dongtai">
+              <h4><a href="#"></a></h4>
+              <li></li>
+              <p></p>
+              <a href="#">Read more -></a>
+            </div>
+
+          </div> -->
+         </div>
+         <div class="newsContent" id="newsHistory" style="display:none">
+           <div class="zuo">现在</div>
+           <div class="year1">2017</div>
+           <div class="year2">2016</div>
+           <div class="year3">2015</div>
+           <div class="year4">2014</div>
+           <div class="shutiao1">
+            <div class="topcolor"></div>
+           </div>
+
+           <div class="thedate">
+             <p>07月13日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2017年07月13日</h4>
+               <li>平台更新内容:</li>
+               <li>1、微金所用户平台密码安全限制</li>
+               <li>2、优惠券使用优化</li>
+               <li>3、修改服务协议，增加3.11条</li>
+             </div>
+           </div>
+            <div class="thedate">
+              <p>06月30日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2017年06月30日</h4>
+               <li>平台更新内容:</li>
+                <li>1、连连支付优化</li>
+                <li>2、连连可提现金额优化</li>
+                <li>3、修改微投资借贷合同 </li>
+            </div>
+          </div>
+           <div class="thedate">
+             <p>05月30日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2017年05月30日</h4>
+               <li>平台更新内容:</li>
+                <li>1、增加连连支付通道</li>
+                <li>2、稳赢保借款申请页面优化</li>
+                <li>3、验证码优化 </li>
+            </div>
+           </div>
+           <div class="thedate">
+             <p>04月27日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2017年04月27日</h4>
+               <li>平台更新内容:</li>
+              <li>1、新手专区文案修改</li>
+              <li>2、微金宝展示优化</li>
+              <li>3、借款申请页面优化</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>01月20日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2017年01月20日</h4>
+               <li>平台更新内容:</li>
+               <li>1、标的详情页增加发起转让时限提示</li>
+               <li>2、发布2016年运营报告</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>12月19日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2016年12月19日</h4>
+               <li>平台更新内容:</li>
+               <li>1、修正个人中心的"已充值总额"和"已提现总额"</li>
+               <li>2、优化回款计划中"未发起赎回的月月盈本息"计算规则</li>
+               <li>3、港澳台用户实名认证优化</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>05月18日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2016年05月18日</h4>
+               <li>平台更新内容:</li>
+               <li>1、新增月月盈产品，更多投资选择</li>
+               <li>2、金房宝、车帮主标的展示优化</li>
+               <li>3、微投资标的详情增加合同范本</li>
+               <li>4、VIP 年化计算展示优化</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>03月15日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2016年03月15日</h4>
+               <li>平台更新内容:</li>
+               <li>1、新增海航通宝产品</li>
+               <li>2、标的增加风险评估和风险提示</li>
+               <li>3、标的产品星级显示优化</li>
+               <li>4、最新动态的专题列表增加评级术语释义</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>12月21日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2015年12月21日</h4>
+               <li>平台更新内容:</li>
+               <li>1、圣诞节和元旦营销活动</li>
+               <li>2、红包雨规则调整</li>
+               <li>3、回款日历</li>
+               <li>4、可信网站身份认证</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>11月19日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2015年11月19日</h4>
+               <li>平台更新内容:</li>
+               <li>1、特别推荐展示优化</li>
+               <li>2、标的详情展示优化 </li>
+               <li>3、提现操作提示信息优化 </li>
+               <li>4、红包雨活动用户体验优化</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>10月28日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2015年10月28日</h4>
+               <li>平台更新内容:</li>
+               <li>1、微金宝优化 </li>
+               <li>2、找回密码用户体验改善 </li>
+               <li>3、公司资质展示优化 </li>
+               <li>4、标的及标的详情展示优化 </li>
+               <li>5、已投项目展示优化 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>10月19日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2015年10月19日</h4>
+               <li>平台更新内容:</li>
+               <li>1、新增新手专区</li>
+               <li>2、红包雨活动用户体验优化 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>08月20日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2015年08月20日</h4>
+               <li>平台更新内容:</li>
+               <li>1、红包雨活动</li>
+               <li>2、首页界面显示优化 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>08月06日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2015年08月06日</h4>
+               <li>平台更新内容:</li>
+               <li>1、微增利</li>
+               <li>2、还款页面显示优化</li>
+               <li>3、标的详情页面改版</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>06月18日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2015年06月18日</h4>
+               <li>平台更新内容:</li>
+               <li>1、体验金活动上线</li>
+               <li>2、标的详情页面展示优化</li>
+               <li>3、标的列表页面展示优化</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>06月04日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2015年06月04日</h4>
+               <li>平台更新内容:</li>
+               <li>1、VIP会员体系和会员权益更新</li>
+               <li>2、“粽”情有你活动上线</li>
+               <li>3、实名认证优化</li>
+               <li>4、密码规则优化</li>
+               <li>5、微转让提醒短信优化</li>
+               <li>6、登录界面优化</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>04月29日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2015年04月29日</h4>
+               <li>平台更新内容:</li>
+               <li>1、全新VIS品牌视觉升级</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>03月23日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2015年03月23日</h4>
+               <li>平台更新内容:</li>
+               <li>1、微投资详情界面优化</li>
+               <li>2、微小宝详情界面优化</li>
+               <li>3、个人中心银行卡绑定界面优化</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>03月09日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2015年03月09日</h4>
+               <li>平台更新内容:</li>
+               <li>1、红包功能优化</li>
+               <li>2、微转让界面优化</li>
+               <li>3、充值界面优化</li>
+               <li>4、支持36个月内的借款项目</li>
+               <li>5、个人中心界面优化</li>
+               <li>6、服务器迁移至阿里金融云</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>01月12日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2015年01月12日</h4>
+               <li>平台更新内容:</li>
+               <li>1、微小宝增加预期收益计算</li>
+               <li>2、网站title的优化</li>
+               <li>3、人寿保功能上线</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>12月15日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年12月15日</h4>
+               <li>平台更新内容:</li>
+               <li>1、客服帮助功能优化</li>
+               <li>2、交易记录增加项目详情链接</li>
+               <li>3、增加利率报告的展示</li>
+               <li>4、充值未投资即提现增加收费功能</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>12月08日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年12月08日</h4>
+               <li>平台更新内容:</li>
+               <li>1、标的详情页，增加借款人借款、还款金额信息</li>
+               <li>2、提现、注册等界面，采用新版图片验证码</li>
+               <li>3、首页各标签下增加简洁的产品介绍 </li>
+
+             </div>
+           </div>
+           <div class="thedate">
+             <p>12月01日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年12月01日</h4>
+               <li>平台更新内容:</li>
+               <li>1、个人中心增加个人设置</li>
+               <li>2、增加首页推荐功能</li>
+               <li>3、12月红包功能</li>
+               <li>4、我要投资界面增加页码</li>
+               <li>5、平台介绍页面优化</li>
+               <li>6、微转让详情界面优化</li>
+               <li>7、提现功能优化</li>
+               <li>8、新手指引界面优化</li>
+               <li>9、个人中心基本信息界面优化 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>11月17日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年11月17日</h4>
+               <li>平台更新内容:</li>
+               <li>1、个人中心全新改版</li>
+               <li>2、微小宝复投功能优化</li>
+               <li>3、新增招聘英才功能</li>
+               <li>4、提供财富机构信息展示功能</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>11月10日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年11月10日</h4>
+               <li>平台更新内容:</li>
+               <li>1、红包分享优化 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>11月3日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年11月3日</h4>
+               <li>平台更新内容:</li>
+               <li>1、解决个人中心部分浏览器中乱码的缺陷</li>
+               <li>2、优化转债权中的信息展示体验</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>10月31日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年10月31日</h4>
+               <li>平台更新内容:</li>
+               <li>1、新增微转让项目</li>
+               <li>2、新增微票宝项目，进一步丰富平台的理财产品</li>
+               <li>3、周年季第三季红包活动上线，实现跨平台、跨终端分享</li>
+               <li>4、新增导航菜单冻结效果，提供快捷导航功能</li>
+               <li>5、新增个人中心收益详情页面</li>
+               <li>6、实现投资、新闻等页面的地址静态化</li>
+               <li>7、优化个人中心页面跳转逻辑，降低无效跳转的几率</li>
+               <li>8、优化借款申请页面</li>
+               <li>9、优化个人中心首页展示</li>
+               <li>10、优化个人中心收益列表页面</li>
+               <li>11、优化项目详情信息展示 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>10月16日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年10月16日</h4>
+               <li>平台更新内容:</li>
+               <li>1、提升个人中心还款交互体验</li>
+               <li>2、提升个人中心交易记录翻页体验</li>
+               <li>3、改进个人中心投资列表与标的关联性 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>10月09日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年10月09日</h4>
+               <li>平台更新内容:</li>
+               <li>1、个人中心申请VIP、收益详情等优化</li>
+               <li>2、新增客服电话工作时间段</li>
+               <li>3、首页投资列表新增“更多”链接 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>9月26日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年9月26日</h4>
+               <li>平台更新内容:</li>
+               <li>1、微小宝功能优化</li>
+               <li>2、3.0界面优化</li>
+               <li>3、“立即投资”改为“立即赚钱”</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>9月18日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年9月18日</h4>
+               <li>平台更新内容:</li>
+               <li>1、新增预约查询数据导出和查询功能</li>
+               <li>2、发布9月破亿红包活动</li>
+               <li>3、微小宝列表、个人中心充值、手机认证等功能优化 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>9月15日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年9月15日</h4>
+               <li>平台更新内容:</li>
+               <li>1、首页banner、产品列表等展示优化</li>
+               <li>2、产品详情页面优化</li>
+               <li>3、个人中心增加个人资产统计 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>9月4日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年9月4日</h4>
+               <li>平台更新内容:</li>
+               <li>1、3.0功能优化及上线</li>
+               <li>2、新添微小宝理财产品 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>8月14日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年8月14日</h4>
+               <li>平台更新内容:</li>
+               <li>1、红包活动上线</li>
+               <li>2、个人信息界面优化</li>
+               <li>3、投标详情界面优化</li>
+               <li>4、app2.0.3页面更新</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>8月07日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年8月07日</h4>
+               <li>平台更新内容:</li>
+               <li>1、登录界面优化</li>
+               <li>2、银行卡认证优化</li>
+               <li>3、实名认证界面优化 </li>
+               <li>4、推广注册页面优化 </li>
+               <li>5、我要投资页面优化 </li>
+               <li>6、借款人申请界面优化 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>7月31日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年7月31日</h4>
+               <li>平台更新内容:</li>
+               <li>1、新手指引页面优化</li>
+               <li>2、手机接收验证码优化</li>
+               <li>3、首页预约投标显示文字优化</li>
+               <li>4、借款人申请借款时添加对个人信息优化 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>7月24日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年7月24日</h4>
+               <li>平台更新内容:</li>
+               <li>1、注册页面优化</li>
+               <li>2、推广页面注册优化</li>
+               <li>3、找回提现密码优化</li>
+               <li>4、修改绑定手机优化</li>
+               <li>5、合同范本生成优化</li>
+               <li>6、理财计算器中的等额本息更正为等本等息 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>7月17日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年7月17日</h4>
+               <li>平台更新内容:</li>
+               <li>1、电子合同优化</li>
+               <li>2、预约功能优化 </li>
+               <li>3、app2.0.2页面更新</li>
+               <li>4、个人信息修改页面优化 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>7月10日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年7月10日</h4>
+               <li>平台更新内容:</li>
+               <li>1、提现界面优化</li>
+               <li>2、app2.0下载页面 </li>
+               <li>3、QQ群号网站首页展示 </li>
+               <li>4、个人信息敏感信息优化</li>
+               <li>5、添加了一个合作伙伴鼎鸿信资产管理有限公司</li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>7月03日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年7月03日</h4>
+               <li>平台更新内容:</li>
+               <li>1、更新客服电话</li>
+               <li>2、用户可进行头像修改</li>
+               <li>3、平台介绍-合作伙伴优化</li>
+               <li>4、标的详情界面，投标体验优化</li>
+               <li>5、项目详情中，预约投标的投标时间做优化处理 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>6月26日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年6月26日</h4>
+               <li>平台更新内容:</li>
+               <li>1、注册页面优化 </li>
+               <li>2、普标新版合同优化 </li>
+               <li>3、VIP转债权,投资优化</li>
+               <li>4、银行卡绑定界面优化 </li>
+               <li>5、个人中心银行卡操作优化</li>
+               <li>6、交易平台登陆验证码的优化</li>
+               <li>7、个人中心总资产计算方法优化</li>
+               <li>8、借款人修改借款信息利率选项优化</li>
+               <li>9、VIP专享标的，个人中心下方显示优化 </li>
+               <li>10、实名认证后，初次绑定银行卡界面优化</li>
+               <li>11、基本信息界面，用户修改完学历保存界面优化</li>
+               <li>12、游客方式可查看项目详情的借款人信息、担保信息、投标记录等 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>6月19日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年6月19日</h4>
+               <li>平台更新内容:</li>
+               <li>1、钱宝网对接</li>
+               <li>2、首页显示细节优化</li>
+               <li>3、自定义昵称修改功能 </li>
+               <li>4、提现界面的功能优化 </li>
+               <li>5、企业客服QQ功能上线 </li>
+               <li>6、最新动态的详情页优化 </li>
+               <li>7、我的借款，左侧图片优化</li>
+               <li>8、个人中心的左边菜单优化</li>
+               <li>9、平台介绍页面数据读取优化 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>6月12日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年6月12日</h4>
+               <li>平台更新内容:</li>
+               <li>1、增加更新历史页面 </li>
+               <li>2、合同下载跳转页面优化</li>
+               <li>3、优化首页投资列表显示 </li>
+               <li>4、优化个人中心 头像背景样式</li>
+               <li>5、增加预约投标所占总投标比例显示 </li>
+               <li>6、优化当余额为0时整笔还款，提示语</li>
+               <li>7、满标放款时，去掉给借款者发送短信 </li>
+               <li>8、优化未登录访问个人中心各个菜单提示语 </li>
+               <li>9、季付息到期还本，破季时，借款人和投资人的收益列表显示 </li>
+             </div>
+           </div>
+           <div class="thedate">
+             <p>6月01日</p>
+             <div class="tu"></div>
+             <div class="triangle"> </div>
+             <div class="updateContent">
+               <h4>2014年6月01日</h4>
+               <li>平台更新内容:</li>
+               <li>1、优化借款合同 </li>
+               <li>2、用户界面全新改版</li>
+               <li>3、增加预约投标功能 </li>
+               <li>4、增加投标预告功能 </li>
+               <li>5、安家世行新产品上线 </li>
+               <li>6、增加业务短信/邮件发送 </li>
+               <li>7、财务与银联对账文件生成 </li>
+               <li>8、还款区分本息，增加收益统计 </li>
+             </div>
+           </div>
+
+           <div class="shutiao2"> </div>
+         </div>
+         <div class="newsContent" id="newsReport" style="display:none">
+           <div class="reportTop">
+           <h4>利率报告</h4>
+             <p>微金所为客观、精确地对区域市场的真实利率水平进行反馈，并为推进利率市场化民间借贷阳光化贡献一份
+               力，自2013年11月起实行按月发布《微金所中国民间利率市场化报告》，并与汤森路透合作，通过汤森路透
+               官方网站面向全球发布。《微金所中国民间利率市场化报告》根据微金所平台交易数据、上海征信系统数据等
+               综合统计分析得出，是监管部门制定金融政策、金融机构业务拓展提供有益的参考。后续每月报告均将在微金
+               所平台定期发布，欢迎有需要的人士浏览、下载。 </p>
+           </div>
+           <div class="xindaibaogao">
+             <div class="xindaiContent">
+               <img src="../images/rate.jpg" alt="">
+               <li><a href="#">微金所信贷市场利率指数报告 (2017年10月）</a></li>
+             </div>
+             <div class="xindaiContent">
+               <img src="../images/rate.jpg" alt="">
+               <li><a href="#">微金所信贷市场利率指数报告 (2017年9月）</a></li>
+             </div>
+             <div class="xindaiContent">
+               <img src="../images/rate.jpg" alt="">
+               <li><a href="#">微金所信贷市场利率指数报告 (2017年8月）</a></li>
+             </div>
+             <div class="xindaiContent">
+               <img src="../images/rate.jpg" alt="">
+               <li><a href="#">微金所信贷市场利率指数报告 (2017年7月）</a></li>
+             </div>
+             <div class="xindaiContent">
+               <img src="../images/rate.jpg" alt="">
+               <li><a href="#">微金所信贷市场利率指数报告 (2017年6月）</a></li>
+             </div>
+             <div class="xindaiContent">
+               <img src="../images/rate.jpg" alt="">
+               <li><a href="#">微金所信贷市场利率指数报告 (2017年5月）</a></li>
+             </div>
+             <div class="xindaiContent">
+               <img src="../images/rate.jpg" alt="">
+               <li><a href="#">微金所信贷市场利率指数报告 (2017年4月）</a></li>
+             </div>
+           </div>
+         </div>
+         <div class="newsContent" id="newsEvaluate" style="display:none">
+           <div class="gonggao">
+            <h4> <a href="#">【微公告】微金所发布年度机构信用评级</a></h4>
+             <li>2016-02-22</li>
+             <p>根据国家有关互联网金融主管部门颁发的《关于促进互联网金融健康发展的指导意见》、《网络借贷
+               信息中介机构业务活动管理暂行办法》等系列行业规范，进一步明确了互联网金融平台的“信息中介”地
+               位，负有“信息披露、风险提示”的责任和义务，全面披露“借款人、担保人的信用风险、信用评级”。</p>
+             <a href="#">Read more -></a>
+           </div>
+           <div class="gonggao">
+             <h4><a href="#">【微公告】评级术语释义</a></h4>
+             <li>2016-03-12</li>
+             <p>微金所持续推进交易所模式，产品星级是上架资产风险定价的核心要素。现将星级含义及其投资提示
+               公开展示，希望广大投资者时刻把握投资风险。</p>
+             <a href="#">Read more -></a>
+           </div>
+           <div class="gonggao">
+             <h4><a href="#">【微公告】关于车帮主及金房宝产品提前还款的说明</a></h4>
+             <li>2016-05-18</li>
+             <p>车帮主及金房宝产品是微金所平台针对借款人推出的优质短期借款项目，该借款一般用于临时资金周转，所以在
+               借款人资金充裕时， 可能会出现借款人提前还款的情况。</p>
+             <a href="#">Read more -></a>
+           </div>
+         </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var  nr = document.getElementById("content");
+      var qbxw = document.getElementById("qbxw");
+      var mtbd = document.getElementById("mtbd");
+      var wjstt = document.getElementById("wjstt");
+      var hyzx = document.getElementById("hyzx");
+      var gxls = document.getElementById("gxls");
+      var llbg = document.getElementById("llbg");
+      var ztlb = document.getElementById("ztlb");
+      var newsHistory = document.getElementById("newsHistory");
+      $("#gxls").click(function(gxls){
+        $("#newsHistory").css("display","block");
+        $("#newsHistory").siblings().css("display","none");
+      });
+      $("#ztlb").click(function(ztlb){
+        $("#newsEvaluate").css("display","block");
+        $("#newsEvaluate").siblings().css("display","none");
+      });
+      $("#mtbd").click(function(mtbd){
+        $("#newsMedia").css("display","block");
+        $("#newsMedia").siblings().css("display","none");
+      });
+      $("#hyzx").click(function(hyzx){
+        $("#newsIndustry").css("display","block");
+        $("#newsIndustry").siblings().css("display","none");
+      });
+      $("#llbg").click(function(llbg){
+        $("#newsReport").css("display","block");
+        $("#newsReport").siblings().css("display","none");
+      });
+      </script>
+  </body>
+</html>
